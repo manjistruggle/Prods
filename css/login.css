@@ -1,0 +1,101 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Navigation Bar */
+.headersection {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-decoration: none;    
+}
+
+.headersection a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.headersection a:hover {
+    color: #FF0000;
+    transition: 500.0ms;
+}
+
+.navfirst a {
+    padding: 10px;
+    color: #ED50B6;
+}
+
+/* Center the information section */
+.information-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adjust padding as needed */
+    margin: 20px; /* Adjust margin as needed */
+    flex-direction: column;
+    border: 1px grey solid;
+    border-radius: 25px; /* Optional: Add border radius for a rounded appearance */
+}
+
+.Username-cont,
+.password-cont {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Username-cont,
+.password-cont label{
+    padding: 5px; 
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    color: #ED50B6;
+    background-color: white;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .headersection {
+        flex-direction: column;
+        align-items: center;
+    }
+}

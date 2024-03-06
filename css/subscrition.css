@@ -1,0 +1,104 @@
+/* subscription.css */
+
+/* Reset */
+/* Add your reset styles here if needed */
+
+body {
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #f2f2f2; /* Background color for the entire page */
+}
+
+/* Navigation Bar */
+.headersection {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.headersection a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.headersection a:hover {
+    color: #FF0000;
+    transition: 500.0ms;
+}
+
+.navfirst a {
+    padding: 10px;
+    color: #ED50B6;
+}
+
+/* Center the subscription section */
+.subscription-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: white; /* Background color for the subscription container */
+    border: 1px solid #ccc; /* Border for the subscription container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+/* Style for subscription options */
+.subscription-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.subscription-option {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; /* Background color for each subscription option */
+    border: 1px solid #ccc; /* Border for each subscription option */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.subscription-option h3 {
+    color: #ED50B6; /* Text color for the subscription tier */
+}
+
+.subscription-option p {
+    margin: 10px 0;
+    color: #666; /* Text color for the description */
+}
+
+button {
+    color: white;
+    background-color: #ED50B6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FF0000;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .headersection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscription-options {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscription-option {
+        margin-bottom: 20px;
+    }
+}

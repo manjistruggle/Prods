@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <link rel="stylesheet" href="/css/subscrition.css">
+</head>
+<body>
+    <header>
+        <nav class="headersection">
+            <div class="navfirst">
+                <a href="index.html">Sugar Tips</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Subscription Content -->
+    <section class="subscription-container">
+        <h2>Welcome to our platform!</h2>
+        <p>Choose your subscription tier:</p>
+        <label for="subscriptionType">Select subscription type:</label>
+        <select id="subscriptionType" name="subscriptionType">
+            <option value="contentCreator">Content Creator</option>
+            <option value="baseUser">Base User</option>
+            <option value="freeUser">Free User</option>
+        </select>
+        <button onclick="submitSubscription()">Submit</button>
+    </section>
+
+    <!-- JavaScript for subscription functionality -->
+    <script src="subscription.js"></script>
+</body>
+</html>

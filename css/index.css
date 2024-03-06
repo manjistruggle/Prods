@@ -1,0 +1,115 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Navigation Bar */
+.headersection {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-decoration:none;    
+}
+
+.headersection a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.headersection a:hover{
+    color: #FF0000;
+    transition: 500.0ms;
+}
+
+.navfirst a{
+    padding: 10px;
+    color: #ED50B6;
+}
+
+.navsecond a{
+    padding: 10px;
+}
+
+.login{
+    background: #ED50B6;
+    border-radius: 10px;
+    color: white;
+}
+
+.signup{
+    color: #ED50B6;
+}
+
+/* Main Section */
+.mainsection {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('/images/sugartips-background.jpg') center/cover no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.mainsection div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Added to horizontally align the <p> tags */
+    padding: 50px;
+}
+
+.mainsection p {
+    margin: 0;
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-decoration:none;  
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ED50B6; 
+}
+
+footer a:hover{
+    color: #FF0000;
+    transition: 500.0ms;
+}
+
